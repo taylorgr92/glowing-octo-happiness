@@ -1,2 +1,2 @@
-# glowing-octo-happiness
-Group project#1
+# My Favorite Movie GIF
+
