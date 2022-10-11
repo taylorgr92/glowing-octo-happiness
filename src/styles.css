@@ -9,11 +9,30 @@
 .is-fluid{
   background-color:#368AC9;
   color: rgba(245, 245, 245, 0.918);
+
   
 }
 
-.mt-5{
-  padding-top:.5em;
-  padding-bottom: .5em;
+.title_text{
+  padding-top:.7em;
+  padding-bottom: .7em;
   padding-left: .75em;
+  font-size: 1.75rem;
+  
+}
+
+.columns{
+  text-align: center;
+}
+
+.card{
+  margin-top:6rem;
+}
+
+#movie_poster{
+
+}
+
+.gif-section{
+  
 }
