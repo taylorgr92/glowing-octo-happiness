@@ -18,11 +18,18 @@ function initGifs() {
   });
 }
 
-///fetch request for gif call
+///fetch request for gif
 
-var fetchRes = function (url) {
-    fetch(url)
-      .then((response) => response.json())
-      .then((content) => {
-        console.log(content.data[0]);
-      })}
+var getMovieGifs = function (url) {
+  fetch(url)
+    .then((response) => response.json())
+    .then((content) => {
+      console.log(content.data[0]);
+      //looping through gifs to display each
+      for (var i = 0; i < content.data.length; i++) {
+        var video = document.createElement("video");
+        //looping property allows gif to loop for 15 seconds
+        video.src = content.data[i].images.looping.mp4;
+      }
+    });
+};
