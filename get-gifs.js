@@ -30,6 +30,14 @@ var getMovieGifs = function (url) {
         var video = document.createElement("video");
         //looping property allows gif to loop for 15 seconds
         video.src = content.data[i].images.looping.mp4;
+
+        video.style.height = "200px";
+        video.style.width = "200px";
+        //setting autoplay attribute so gif plays on page load
+        video.setAttribute("autoplay", "true");
+        console.log(video);
+        gifSect.append(video);
+    
       }
     });
 };
