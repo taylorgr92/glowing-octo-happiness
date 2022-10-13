@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
@@ -17,10 +17,32 @@
 
 #movie_poster {
   margin-top: 5rem;
-  margin-left: 10%
- 
+  margin-left: 10%;
 }
 
+/* .searchbox {
+
+} */
+input[type="text"] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+.searchbox button {
+  /* padding: 8px;
+  margin-top: 10px;
+  margin-left: 10px; */
+  background: orange;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.searchbox button:hover {
+  background: blue;
+  color: white;
+}
 /* 
 .gif-section {
 } */

@@ -1,5 +1,5 @@
 //assign dom manipulation variables
-var gifSectEl = document.getElementById("#gifSect");
+
 var btnSearchEl = document.getElementById("#btnSearch");
 
 //giphy API key
@@ -35,9 +35,12 @@ var getMovieGifs = function (url) {
         video.style.width = "200px";
         //setting autoplay attribute so gif plays on page load
         video.setAttribute("autoplay", "true");
+
         console.log(video);
-        gifSect.append(video);
-    
+
+        var gifSectEl = document.querySelector(".gifSect");
+        //appends gif image to section
+        gifSectEl.append(video);
       }
     });
 };
