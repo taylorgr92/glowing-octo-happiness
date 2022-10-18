@@ -5,7 +5,8 @@
 }
 
 .is-fluid {
-  background-color: #368ac9;
+  background: rgb(21,83,107);
+  background: linear-gradient(90deg, rgba(21,83,107,1) 0%, rgba(65,123,163,0.6474790599833684) 25%, rgba(0,164,255,0.6670869031206232) 71%);
   color: rgba(245, 245, 245, 0.918);
 }
 
