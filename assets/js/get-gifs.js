@@ -42,11 +42,6 @@ var getMovieGifs = function (url) {
 
         var gifSectEl = document.querySelector(".gifSect");
 
-        clearSect.onclick = () => {
-          var myNode = document.getElementById(".gifSect");
-          myNode.textContent = "";
-        };
-
         //appends gif image to section
         gifSectEl.append(video);
       }
