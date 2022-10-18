@@ -2,17 +2,19 @@
 
 var btnSearchEl = document.getElementById("#btnSearch");
 
-//giphy API key
-var APIKEY = "k0CkMRxLxYYn0D6z8cZC35N8woAyytgJ";
+// giphy API key
 
+var APIKEY = "qAY2xUeCahTZp2g4nhu5pjwMQPcOQINZ";
 //event listener to load page
 document.addEventListener("DOMContentLoaded", initGifs);
 function initGifs() {
   document.getElementById("btnSearch").addEventListener("click", (ev) => {
     ev.preventDefault(); //to stop the page reload
 
-    var url = `https://api.giphy.com/v1/gifs/search?api_key=${APIKEY}&limit=20&q=categorymovie`; //limits search results to the movie category with a limit of 10
+    var url = `https://api.giphy.com/v1/gifs/search?api_key=${APIKEY}&limit=15&q=categorymovie `;
+    //limits search results to the movie category with a limit of 10
     var gifStr = document.getElementById("search").value.trim();
+    console.log(gifStr);
     url = url.concat(gifStr);
     getMovieGifs(url); //
   });
@@ -39,6 +41,7 @@ var getMovieGifs = function (url) {
         console.log(video);
 
         var gifSectEl = document.querySelector(".gifSect");
+
         //appends gif image to section
         gifSectEl.append(video);
       }
