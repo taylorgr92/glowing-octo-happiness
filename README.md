@@ -7,7 +7,7 @@ This project was developed to help the user manage their workday. Users can ente
 
 
 # Technologies Used
-HTML/CSS/Javascript
+HTML/CSS/Javascript. Bulma framework for styling.
 
 #Follow this link to clone the code: git@github.com:taylorgr92/my-favorite-movie-gif.git
 
