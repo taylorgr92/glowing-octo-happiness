@@ -5,7 +5,8 @@
 }
 
 .is-fluid {
-  background-color: #368ac9;
+  background: rgb(21,83,107);
+  background: linear-gradient(90deg, rgba(21,83,107,1) 0%, rgba(65,123,163,0.6474790599833684) 25%, rgba(0,164,255,0.6670869031206232) 71%);
   color: rgba(245, 245, 245, 0.918);
 }
 
@@ -13,6 +14,8 @@
   padding: 0.75rem;
   text-align: center;
   font-size: 2.5rem;
+text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+
 }
 
 #movie_poster {
@@ -20,21 +23,30 @@
   margin-left: 10%;
 }
 
-/* .searchbox {
+.searchbox {
+margin-top:4rem;
+text-align:center;
 
-} */
+}
+input#search{
+  font-size: 1.25rem;
+  height:3rem;
+  width:16rem;
+  padding-left: .5rem;
+}
 input[type="text"] {
-  padding: 6px;
-  margin-top: 8px;
-  font-size: 17px;
+
   border: none;
+  height:3rem;
+  width:16rem;
+  
 }
 .searchbox button {
-  /* padding: 8px;
-  margin-top: 10px;
-  margin-left: 10px; */
+
+  height: 2.5rem;
+  width:5.5rem;
   background: orange;
-  font-size: 17px;
+  font-size: 20px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
