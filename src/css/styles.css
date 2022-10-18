@@ -2,6 +2,11 @@
   font-family: "Roboto", sans-serif;
 }
 
+html,
+body {
+  height: 100%;
+  background-color:hsl(21, 58%, 95%);
+}
 .is-fluid {
   background: rgb(21, 83, 107);
   background: linear-gradient(
@@ -36,7 +41,7 @@
 }
 input#search {
   font-size: 1.25rem;
-  font-weight:600;
+  font-weight: 600;
   height: 3rem;
   width: 16rem;
   padding-left: 0.5rem;
@@ -51,10 +56,11 @@ input[type="text"] {
   width: 5.5rem;
   background: rgb(203, 114, 203);
   font-size: 20px;
-  font-weight:600;
+  font-weight: 600;
   border: none;
   cursor: pointer;
   border-radius: 5px;
+  color: white;
 }
 .searchbox button:hover {
   background: blue;
@@ -64,3 +70,4 @@ input[type="text"] {
 .gifSect {
   padding-top: 2rem;
 }
+
