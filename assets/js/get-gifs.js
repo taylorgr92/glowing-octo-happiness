@@ -19,7 +19,6 @@ function initGifs() {
     getMovieGifs(url); //
   });
 }
-
 ///fetch request for gif
 
 var getMovieGifs = function (url) {
@@ -35,9 +34,10 @@ var getMovieGifs = function (url) {
 
         video.style.height = "200px";
         video.style.width = "200px";
-        video.style.padding="20px"
+        video.style.padding = "20px";
         //setting autoplay attribute so gif plays on page load
         video.setAttribute("autoplay", "true");
+
 
         console.log(video);
 
