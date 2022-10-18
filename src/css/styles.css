@@ -40,9 +40,7 @@ input[type="text"] {
   
 }
 .searchbox button {
-  /* padding: 8px;
-  margin-top: 10px;
-  margin-left: 10px; */
+
   height: 2.5rem;
   width:5.5rem;
   background: orange;
@@ -59,8 +57,3 @@ input[type="text"] {
 .gifSect{
   padding-top:2rem;
 }
-
-/* .gifSect >:hover{
-  background: #46424248;
-  background: var(--td-background-color);
-} */
