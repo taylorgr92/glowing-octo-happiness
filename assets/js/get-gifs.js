@@ -1,6 +1,7 @@
 //assign dom manipulation variables
 
 var btnSearchEl = document.getElementById("#btnSearch");
+var gifSectEl = document.querySelector(".gifSect");
 
 // giphy API key
 
@@ -22,6 +23,7 @@ function initGifs() {
 ///fetch request for gif
 
 var getMovieGifs = function (url) {
+  gifSectEl.textContent='';
   fetch(url)
     .then((response) => response.json())
     .then((content) => {
@@ -40,7 +42,7 @@ var getMovieGifs = function (url) {
 
         console.log(video);
 
-        var gifSectEl = document.querySelector(".gifSect");
+       
 
         //appends gif image to section
         gifSectEl.append(video);
