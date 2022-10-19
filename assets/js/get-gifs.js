@@ -23,7 +23,7 @@ function initGifs() {
 ///fetch request for gif
 
 var getMovieGifs = function (url) {
-  gifSectEl.textContent='';
+  gifSectEl.textContent = "";
   fetch(url)
     .then((response) => response.json())
     .then((content) => {
@@ -41,8 +41,6 @@ var getMovieGifs = function (url) {
         video.setAttribute("autoplay", "true");
 
         console.log(video);
-
-       
 
         //appends gif image to section
         gifSectEl.append(video);
