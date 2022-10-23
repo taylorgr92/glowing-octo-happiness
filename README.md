@@ -15,6 +15,6 @@ Follow this link to clone the code: git@github.com:taylorgr92/my-favorite-movie-
 
 # Screenshots
 
-https://snipboard.io/Qv4t1d.jpg
+https://snipboard.io/mR92vC.jpg
 
 https://snipboard.io/QkyJ9S.jpg
