@@ -24,6 +24,7 @@ function initGifs() {
 
 var getMovieGifs = function (url) {
   gifSectEl.textContent = "";
+
   fetch(url)
     .then((response) => response.json())
     .then((content) => {
