@@ -11,7 +11,7 @@ HTML/CSS/Javascript are used for the page build and the Giphy API is used for th
 
 # Installation 
 
-Follow this link to clone the code: git@github.com:taylorgr92/my-favorite-movie-gif.git
+Follow this link to clone the code: git@github.com:taylorgr92/my-favorite-movie-gif
 
 # Screenshots
 
