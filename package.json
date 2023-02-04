@@ -1,0 +1,13 @@
+{
+  "name": "my-favorite-movie-gif",
+  "version": "(1.0.0)",
+  "description": "",
+  "main": "index.js",
+  "repository": "git@github.com:taylorgr92/my-favorite-movie-gif.git",
+  "author": "taylorgr92 <79235815+taylorgr92@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bulma": "^0.9.4",
+    "react": "^18.2.0"
+  }
+}
