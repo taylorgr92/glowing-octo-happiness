@@ -21,12 +21,24 @@ const GifSearch = () => {
   return (
     <div>
       <form>
-        <input type="text" value={gifStr} onChange={(event) => setGifStr(event.target.value)} />
-        <button id="btnSearch" onClick={handleSearch}>Search</button>
+        <input
+          type="text"
+          value={gifStr}
+          onChange={(event) => setGifStr(event.target.value)}
+        />
+        <button id="btnSearch" onClick={handleSearch}>
+          Search
+        </button>
       </form>
       <section className="gifSect">
         {gifs.map((gif) => (
-          <video key={gif.id} height="200px" width="200px" padding="20px" autoPlay>
+          <video
+            key={gif.id}
+            height="200px"
+            width="200px"
+            padding="20px"
+            autoPlay
+          >
             <source src={gif.images.looping.mp4} />
           </video>
         ))}
